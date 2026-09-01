@@ -15,47 +15,57 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="elyfo-intro" id="elyfoIntro" aria-hidden="true">
+  <div class="elyfo-intro__panel-b"></div>
+  <div class="elyfo-intro__panel-a">
+    <div class="elyfo-intro__glow"></div>
+    <div class="elyfo-intro__logo-wrap">
+      <div class="elyfo-intro__solid">Elyus.</div>
+      <div class="elyfo-intro__outline">Elyus.</div>
+    </div>
+  </div>
+</div>
 <header>
   <nav class="nav">
     <a href="index.html" class="logo">Elyus.</a>
-    <div class="nav-links">
-      <div class="has-dropdown">
-        <a href="services.html" class="dropdown-trigger">Services
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </a>
-        <div class="mega">
-          <div class="mega-inner">
-            <div class="mega-col">
-              <h4>Website Development</h4>
-              <p>One-pagers, business sites, webshops &amp; tailored builds.</p>
-            </div>
-            <div class="mega-col">
-              <h4>Growth Services</h4>
-              <p>SEO, conversion, analytics &amp; AI — ongoing growth.</p>
-            </div>
-            <div class="mega-foot">
-              <span>Not sure which you need?</span>
-              <div class="actions">
-                <a href="services.html#contact" class="primary">Let's talk →</a>
-                <a href="#" class="secondary">WhatsApp</a>
+    <div class="nav-right-group">
+      <div class="nav-links">
+        <div class="has-dropdown">
+          <a href="services.html" class="dropdown-trigger">Services
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+          <div class="mega">
+            <div class="mega-inner">
+              <div class="mega-col">
+                <h4>Website Development</h4>
+                <p>One-pagers, business sites, webshops &amp; tailored builds.</p>
+              </div>
+              <div class="mega-col">
+                <h4>Growth Services</h4>
+                <p>SEO, conversion, analytics &amp; AI — ongoing growth.</p>
+              </div>
+              <div class="mega-foot">
+                <span>Not sure which you need?</span>
+                <div class="actions">
+                  <a href="services.html#contact" class="primary">Let's talk →</a>
+                  <a href="#" class="secondary">WhatsApp</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="studio.html" class="active">Studio</a>
+        <a href="#contact" class="nav-cta">Let's talk
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </a>
       </div>
-      <a href="case-studies.html">Case Studies</a>
-      <a href="studio.html" class="active">Studio</a>
-    </div>
-    <div class="nav-right">
-      <a href="#contact" class="btn btn-dark">Let's talk
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-      </a>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
     </div>
   </nav>
-  </header>
+</header>
   <div class="mobile-panel" id="mobilePanel">
     <a href="services.html">Services</a>
     <a href="case-studies.html">Case Studies</a>

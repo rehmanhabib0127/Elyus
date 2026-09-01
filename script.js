@@ -19,3 +19,12 @@ if(siteHeader){
   setHeaderState();
   window.addEventListener('scroll', setHeaderState, { passive:true });
 }
+
+// Initial opening curtain animation cleanup
+const introEl = document.getElementById('elyfoIntro');
+if(introEl){
+  setTimeout(() => {
+    introEl.classList.add('hidden');
+  }, 1900);
+}
+
